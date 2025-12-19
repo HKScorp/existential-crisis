@@ -1,17 +1,17 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 <head>
-  <meta charset="utf-8">
-  <title>Redirect</title>
+  <meta charset="UTF-8">
+  <title>Telegram</title>
 
-  <!-- Telegram app -->
-  <meta http-equiv="refresh" content="0; url=tg://resolve?domain=yourusername">
+  <!-- Попытка открыть приложение Telegram -->
+  <meta http-equiv="refresh" content="0; url=tg://resolve?domain=Taiwangoose">
 
-  <!-- fallback -->
   <script>
-    setTimeout(() => {
-      window.location.href = "https://t.me/yourusername";
-    }, 100);
+    // Fallback на web-версию, если приложение не открылось
+    setTimeout(function () {
+      window.location.href = "https://t.me/Taiwangoose";
+    }, 120);
   </script>
 </head>
 <body></body>
